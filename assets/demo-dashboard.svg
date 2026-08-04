@@ -1,0 +1,78 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ScholarGraph AI dashboard preview">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="720">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#020617" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" rx="34" fill="#E5E7EB"/>
+  <rect x="28" y="28" width="1144" height="664" rx="28" fill="url(#panel)" filter="url(#soft)"/>
+  <rect x="58" y="58" width="220" height="604" rx="22" fill="#111827" stroke="#334155"/>
+  <text x="86" y="104" fill="white" font-family="Inter, Arial" font-size="24" font-weight="800">ScholarGraph</text>
+  <text x="86" y="132" fill="#94A3B8" font-family="Inter, Arial" font-size="14">Research workspace</text>
+  <g font-family="Inter, Arial" font-size="15" font-weight="700">
+    <rect x="80" y="178" width="166" height="42" rx="14" fill="#4F46E5"/>
+    <text x="104" y="205" fill="white">Dashboard</text>
+    <text x="104" y="264" fill="#CBD5E1">Papers</text>
+    <text x="104" y="322" fill="#CBD5E1">Knowledge Graph</text>
+    <text x="104" y="380" fill="#CBD5E1">Gap Detector</text>
+    <text x="104" y="438" fill="#CBD5E1">Thesis Roadmap</text>
+    <text x="104" y="496" fill="#CBD5E1">Exports</text>
+  </g>
+  <text x="318" y="92" fill="white" font-family="Inter, Arial" font-size="34" font-weight="900">Research Intelligence Dashboard</text>
+  <text x="318" y="124" fill="#94A3B8" font-family="Inter, Arial" font-size="16">A concept interface for organizing papers, methods, limitations, and research gaps.</text>
+  <g transform="translate(318 162)">
+    <rect width="196" height="104" rx="22" fill="#1E293B" stroke="#334155"/>
+    <text x="24" y="38" fill="#94A3B8" font-family="Inter, Arial" font-size="13" font-weight="700">PAPERS ANALYZED</text>
+    <text x="24" y="78" fill="white" font-family="Inter, Arial" font-size="36" font-weight="900">128</text>
+  </g>
+  <g transform="translate(536 162)">
+    <rect width="196" height="104" rx="22" fill="#1E293B" stroke="#334155"/>
+    <text x="24" y="38" fill="#94A3B8" font-family="Inter, Arial" font-size="13" font-weight="700">TOPIC CLUSTERS</text>
+    <text x="24" y="78" fill="white" font-family="Inter, Arial" font-size="36" font-weight="900">14</text>
+  </g>
+  <g transform="translate(754 162)">
+    <rect width="196" height="104" rx="22" fill="#1E293B" stroke="#334155"/>
+    <text x="24" y="38" fill="#94A3B8" font-family="Inter, Arial" font-size="13" font-weight="700">GAP SIGNALS</text>
+    <text x="24" y="78" fill="white" font-family="Inter, Arial" font-size="36" font-weight="900">37</text>
+  </g>
+  <g transform="translate(972 162)">
+    <rect width="150" height="104" rx="22" fill="#1E293B" stroke="#334155"/>
+    <text x="22" y="38" fill="#94A3B8" font-family="Inter, Arial" font-size="13" font-weight="700">READINESS</text>
+    <text x="22" y="78" fill="#2DD4BF" font-family="Inter, Arial" font-size="36" font-weight="900">82%</text>
+  </g>
+  <g transform="translate(318 298)">
+    <rect width="510" height="318" rx="24" fill="#1E293B" stroke="#334155"/>
+    <text x="24" y="42" fill="white" font-family="Inter, Arial" font-size="22" font-weight="800">Knowledge Graph</text>
+    <line x1="160" y1="145" x2="270" y2="90" stroke="#64748B" stroke-width="4"/>
+    <line x1="160" y1="145" x2="292" y2="196" stroke="#64748B" stroke-width="4"/>
+    <line x1="270" y1="90" x2="386" y2="143" stroke="#64748B" stroke-width="4"/>
+    <line x1="292" y1="196" x2="386" y2="143" stroke="#64748B" stroke-width="4"/>
+    <circle cx="160" cy="145" r="46" fill="#4F46E5"/>
+    <circle cx="270" cy="90" r="34" fill="#14B8A6"/>
+    <circle cx="292" cy="196" r="38" fill="#F59E0B"/>
+    <circle cx="386" cy="143" r="42" fill="#EC4899"/>
+    <text x="126" y="151" fill="white" font-family="Inter, Arial" font-size="14" font-weight="800">Paper</text>
+    <text x="244" y="95" fill="white" font-family="Inter, Arial" font-size="13" font-weight="800">Method</text>
+    <text x="262" y="201" fill="white" font-family="Inter, Arial" font-size="13" font-weight="800">Dataset</text>
+    <text x="359" y="148" fill="white" font-family="Inter, Arial" font-size="13" font-weight="800">Gap</text>
+  </g>
+  <g transform="translate(858 298)">
+    <rect width="264" height="318" rx="24" fill="#1E293B" stroke="#334155"/>
+    <text x="24" y="42" fill="white" font-family="Inter, Arial" font-size="22" font-weight="800">Gap Signals</text>
+    <rect x="24" y="74" width="216" height="54" rx="16" fill="#0F172A" stroke="#334155"/>
+    <text x="44" y="106" fill="#E2E8F0" font-family="Inter, Arial" font-size="14" font-weight="700">Weak external validity</text>
+    <rect x="24" y="146" width="216" height="54" rx="16" fill="#0F172A" stroke="#334155"/>
+    <text x="44" y="178" fill="#E2E8F0" font-family="Inter, Arial" font-size="14" font-weight="700">Few multilingual studies</text>
+    <rect x="24" y="218" width="216" height="54" rx="16" fill="#0F172A" stroke="#334155"/>
+    <text x="44" y="250" fill="#E2E8F0" font-family="Inter, Arial" font-size="14" font-weight="700">Limited reproducibility</text>
+  </g>
+  <rect x="318" y="636" width="804" height="22" rx="11" fill="url(#accent)" opacity="0.75"/>
+</svg>
