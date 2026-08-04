@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Explainable AI for Academic Literature Review",
+    "abstract": "This study explores explainable AI methods for literature review automation using knowledge graphs and natural language processing. The paper reports promising results but highlights future work on human-centered evaluation and broader benchmark datasets.",
+    "keywords": ["explainable AI", "literature review", "knowledge graph", "NLP"],
+    "authors": ["A. Researcher", "B. Scholar"],
+    "year": 2026,
+    "venue": "Journal of Research Intelligence"
+  },
+  {
+    "title": "Graph Mining for Doctoral Research Discovery",
+    "abstract": "The paper proposes a graph mining approach to organize papers, authors, methods, and datasets. The study uses a single dataset and notes that external validity requires more evaluation across disciplines.",
+    "keywords": ["graph mining", "doctoral research", "research discovery"],
+    "authors": ["C. Author"],
+    "year": 2026,
+    "venue": "International Conference on Scholarly AI"
+  }
+]
