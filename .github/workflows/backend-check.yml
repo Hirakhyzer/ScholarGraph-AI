@@ -1,0 +1,33 @@
+name: Backend Check
+
+on:
+  push:
+    paths:
+      - 'backend/**'
+      - '.github/workflows/backend-check.yml'
+  pull_request:
+    paths:
+      - 'backend/**'
+
+jobs:
+  backend-import-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Import FastAPI app
+        run: |
+          cd backend
+          python -c "from app.main import app; print(app.title)"
