@@ -1,0 +1,51 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ScholarGraph AI banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101828"/>
+      <stop offset="0.45" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 110) rotate(118) scale(420 640)">
+      <stop stop-color="#A78BFA" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" rx="38" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="38" fill="url(#glow)"/>
+  <g opacity="0.16">
+    <circle cx="132" cy="78" r="3" fill="white"/>
+    <circle cx="340" cy="318" r="3" fill="white"/>
+    <circle cx="1150" cy="330" r="4" fill="white"/>
+    <circle cx="1260" cy="118" r="3" fill="white"/>
+    <circle cx="708" cy="70" r="2" fill="white"/>
+  </g>
+  <g transform="translate(875 68)" filter="url(#shadow)">
+    <rect x="0" y="0" width="360" height="270" rx="28" fill="#F8FAFC" fill-opacity="0.96"/>
+    <rect x="32" y="38" width="130" height="16" rx="8" fill="#6366F1"/>
+    <rect x="32" y="72" width="282" height="10" rx="5" fill="#CBD5E1"/>
+    <rect x="32" y="96" width="218" height="10" rx="5" fill="#CBD5E1"/>
+    <circle cx="76" cy="172" r="34" fill="#4F46E5"/>
+    <circle cx="176" cy="140" r="26" fill="#14B8A6"/>
+    <circle cx="270" cy="194" r="30" fill="#F59E0B"/>
+    <path d="M107 161L151 146" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+    <path d="M200 151L244 178" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+    <path d="M101 193L241 200" stroke="#334155" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <text x="32" y="242" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Knowledge Graph Preview</text>
+  </g>
+  <g transform="translate(90 88)">
+    <text x="0" y="48" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">PHD RESEARCH INTELLIGENCE</text>
+    <text x="0" y="116" fill="white" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="900">ScholarGraph AI</text>
+    <text x="0" y="166" fill="#D1FAE5" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">Map papers. Detect gaps. Build thesis roadmaps.</text>
+    <g transform="translate(0 214)">
+      <rect x="0" y="0" width="172" height="46" rx="23" fill="white" fill-opacity="0.14" stroke="white" stroke-opacity="0.28"/>
+      <text x="26" y="30" fill="white" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">NLP Pipeline</text>
+      <rect x="194" y="0" width="210" height="46" rx="23" fill="white" fill-opacity="0.14" stroke="white" stroke-opacity="0.28"/>
+      <text x="220" y="30" fill="white" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Knowledge Graphs</text>
+      <rect x="426" y="0" width="180" height="46" rx="23" fill="white" fill-opacity="0.14" stroke="white" stroke-opacity="0.28"/>
+      <text x="453" y="30" fill="white" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Gap Analysis</text>
+    </g>
+  </g>
+</svg>
