@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use ScholarGraph AI in academic work, please cite the repository."
+title: "ScholarGraph AI: Research Intelligence for Literature Mapping and Gap Analysis"
+authors:
+  - family-names: "Khyzer"
+    given-names: "Hira"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Hirakhyzer/ScholarGraph-AI"
+keywords:
+  - literature review
+  - knowledge graph
+  - research gap analysis
+  - doctoral research
+  - academic AI
